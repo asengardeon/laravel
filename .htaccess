@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_URI} !^public
+
+RewriteRule ^(.*)$ public/$1 [L]
+
+</IfModule>
+
+<FilesMatch "\.(inc|php|php3|php4|php44|php5|php52|php53|php54|php55|php56|phtml|phps)$">
+
+ AddHandler php56-script .php
+ suPHP_ConfigPath /home/codifiquei/
+
+</FilesMatch>
