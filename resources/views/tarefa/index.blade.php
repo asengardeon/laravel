@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="utf-8">
-  <title>Lista de Tarefas</title>
-</head>
-<body>
+@extends('layouts.basico')
+
+@section('title', 'Tarefas')
+
+
+@section('conteudo')
+  xpto
   <ul>
   <?php foreach ($tarefa as $tar): ?>
     <li>
@@ -17,5 +17,4 @@
   <?php endforeach ?>
   </ul>
   <a href="{!!URL::route('tarefa.create')!!}">Cadastro</a>
-</body>
-</html>
+@stop
