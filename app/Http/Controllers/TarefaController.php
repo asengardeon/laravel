@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Stammcontrol\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use App\Http\Requests;
-use App\Http\Controllers\Controller;
+use Stammcontrol\Http\Requests;
+use Stammcontrol\Http\Controllers\Controller;
 use Auth;
 
-use App\tarefa;
+use Stammcontrol\tarefa;
 
 use Input, Redirect;
 

@@ -28,6 +28,11 @@ Route::get('construcao', ['middleware' => 'auth', function () {
 
 Route::resource('tarefa', 'TarefaController');
 
+Route::get('/novolayout', function () {
+    return view('novolayout/fullpage');
+});
+
+
 Route::get('info', function(){
   return view('phpinfo');
 });

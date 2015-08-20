@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Events;
+namespace Stammcontrol\Events;
 
 abstract class Event
 {
