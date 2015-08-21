@@ -140,9 +140,9 @@ return [
         /*
          * Application Service Providers...
          */
-        Stammcontrol\Providers\AppServiceProvider::class,
-        Stammcontrol\Providers\EventServiceProvider::class,
-        Stammcontrol\Providers\RouteServiceProvider::class,
+        App\Providers\AppServiceProvider::class,
+        App\Providers\EventServiceProvider::class,
+        App\Providers\RouteServiceProvider::class,
 
     ],
 

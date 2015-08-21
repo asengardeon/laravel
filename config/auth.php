@@ -28,7 +28,7 @@ return [
     |
     */
 
-    'model' => Stammcontrol\User::class,
+    'model' => App\User::class,
 
     /*
     |--------------------------------------------------------------------------

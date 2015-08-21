@@ -1,6 +1,6 @@
 <?php
 
-namespace Stammcontrol\Providers;
+namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
