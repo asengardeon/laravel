@@ -28,9 +28,9 @@ Route::get('construcao', ['middleware' => 'auth', function () {
 
 Route::resource('tarefa', 'TarefaController');
 
-Route::get('/novolayout', function () {
+Route::get('/novolayout', ['middleware' => 'auth', function () {
     return view('novolayout/fullpage');
-});
+}]);
 
 
 Route::get('info', function(){
