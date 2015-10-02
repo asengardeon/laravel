@@ -20,6 +20,7 @@ Route::get('/welcome', function () {
 });
 
 
+
 Route::get('construcao', ['middleware' => 'auth', function () {
     return view('emconstrucao');
 }]);
@@ -41,6 +42,7 @@ Route::get('especial', function(){
   return view('paraGielez');
 });
 
+Route::resource('person', 'PersonController');
 
 Route::get('home', 'HomeController@index');
 
