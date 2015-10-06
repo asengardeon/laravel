@@ -42,6 +42,10 @@ Route::get('especial', function(){
   return view('paraGielez');
 });
 
+Route::get('menutest', function(){
+  return view('menutest');
+});
+
 Route::resource('person', 'PersonController');
 
 Route::get('home', 'HomeController@index');
